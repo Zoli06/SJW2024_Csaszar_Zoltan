@@ -29,7 +29,17 @@ header h1 {
   text-shadow: 5px 5px 10px #000;
 }
 
+@media screen and (max-width: 992px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
 main h1 {
   text-decoration: wavy underline;
   font-variant: small-caps;
+}
+
+main img {
+  box-shadow: #06435f 1px 1px 3px;
 }
