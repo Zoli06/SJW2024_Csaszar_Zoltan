@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
+header {
+  height: 400px;
+  width: 100%;
+  background: url("../img/balaton_bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #06435f;
+}
+
+ul.navbar-nav > li#active {
+  background-color: #1283b9;
+}
+
+h1, h2, h3, h4, h5, h6 , footer, th {
+  font-family: "Marhey", sans-serif;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 10px #000;
+}
+
+main h1 {
+  text-decoration: wavy underline;
+  font-variant: small-caps;
+}
